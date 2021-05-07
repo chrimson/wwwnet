@@ -12,10 +12,10 @@ def main():
   return render_template("home.html")
 
 if __name__ == '__main__':
-#  server.run(host="0.0.0.0", port=443, ssl_context='adhoc', debug=True)
-  server.run(host='0.0.0.0',
-             port=443,
-             ssl_context=('/etc/letsencrypt/live/www.chrimson.net/fullchain.pem',
-                          '/etc/letsencrypt/live/www.chrimson.net/privkey.pem'),
-             debug=True)
+  server.run(host="0.0.0.0", port=443, ssl_context='adhoc', debug=True)
+#  server.run(host='0.0.0.0',
+#             port=443,
+#             ssl_context=('/etc/letsencrypt/live/www.chrimson.net/fullchain.pem',
+#                          '/etc/letsencrypt/live/www.chrimson.net/privkey.pem'),
+#             debug=True)
 
