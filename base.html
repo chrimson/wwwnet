@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+ <head>
+  <meta charset="UTF-8">
+  <link href="/favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+  <style type="text/css">
+   body {
+    background: white;
+    color: black;
+   }
+
+   a {
+    color: black;
+    text-decoration: none;
+   }
+  </style>
+
+  {% if title %}
+  <title>{{ title }}</title>
+  {% else %}
+  <title>chrimson.net</title>
+  {% endif %}
+
+ </head>
+
+ <body>
+
+  <a href="/">Home</a>
+  |
+  GitHub
+  |
+  DockerHub
+  |
+  Flask - OAuth, AJAX, jQuery, Jinja2, sqlite3, SQLAlchemy, DataTables
+  |
+  AWS
+  |
+  Microservices
+  |
+  <a href="/classax">ClassAX</a>
+  |
+  <a href="/composers">Composers</a>
+  |
+  Facebook
+  |
+  Twitter
+  |
+  LinkedIn
+  |
+  QR code
+  |
+  recaptcha Contact
+  <hr>
+
+  {% block content %}{% endblock %}
+
+  <p>
+
+  <div id="status">Status</div>
+
+ </body>
+
+</html>
