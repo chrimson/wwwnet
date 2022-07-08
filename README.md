@@ -6,11 +6,22 @@ t4g.nano 2 vCPUs 0.5 GiB \
 IAM chrimson.net AmazonEC2FullAccess AmazonS3FullAccess \
 www.chrimson.net Tag Name \
 default Security Group \
-chrimson.net > chrimsonnet.pem Key Pair
+chrimson.net > chrimsonnet.pem Key Pair \
+Allocate Elastc IP, Associate
+
+Route 53, Create A Record
 
 PuTTY 0.77 \
 PuTTYgen, .pem > Private Key .ppk \
-ubuntu@<Public IPv4>
+ubuntu@[Public IPv4] \
+/etc/ssh/sshd_confg PubkeyAcceptedKeyTypes +ssh-rsa
+
+### Install
+sudo apt install python3-pip \
+sudo pip install Flask
+
+
+
 
 ### To Do: \
 redirects \
