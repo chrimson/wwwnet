@@ -8,6 +8,10 @@ www.chrimson.net Tag Name \
 default Security Group \
 chrimson.net > chrimsonnet.pem Key Pair
 
+PuTTY 0.77 \
+PuTTYgen, .pem > Private Key .ppk \
+ubuntu@<Public IPv4>
+
 ### To Do: \
 redirects \
 wsgi \
