@@ -25,6 +25,8 @@ apt install awscli
 
 
 ### To Do: \
+git \
+ansible \
 redirects \
 wsgi \
 boto3, awscli \
