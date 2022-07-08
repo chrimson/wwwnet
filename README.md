@@ -17,9 +17,10 @@ ubuntu@[Public IPv4] \
 /etc/ssh/sshd_confg PubkeyAcceptedKeyTypes +ssh-rsa
 
 ### Install
-sudo apt install python3-pip \
-sudo pip install Flask
-
+sudo su -
+apt install python3-pip \
+pip install Flask
+apt install awscli
 
 
 
@@ -28,6 +29,7 @@ redirects \
 wsgi \
 boto3, awscli \
 flask \
+gunicorn \
 certbot \
 ec2, s3, iam, route53
 
