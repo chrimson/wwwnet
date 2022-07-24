@@ -18,14 +18,15 @@ ubuntu@[Public IPv4] \
 
 ### Install
 sudo su - \
+apt update \
 apt install python3-pip \
 pip install Flask \
-apt install awscli
+apt install awscli \
+apt install git
 
 
 
 ### To Do:
-git \
 ansible \
 redirects \
 wsgi \
