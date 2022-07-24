@@ -24,6 +24,13 @@ pip install Flask \
 apt install awscli \
 apt install git
 
+snap install core \
+snap refresh core \
+apt remove certbot \
+snap install --classic certbot \
+ln -s /snap/bin/certbot /usr/bin/certbot \
+certbot certonly --standalone
+
 
 
 ### To Do:
