@@ -17,14 +17,14 @@ ubuntu@[Public IPv4] \
 /etc/ssh/sshd_confg PubkeyAcceptedKeyTypes +ssh-rsa
 
 ### Install
-sudo su -
+sudo su - \
 apt install python3-pip \
-pip install Flask
+pip install Flask \
 apt install awscli
 
 
 
-### To Do: \
+### To Do:
 git \
 ansible \
 redirects \
