@@ -37,9 +37,6 @@ certbot certonly --standalone
 ansible \
 redirects \
 wsgi \
-boto3, awscli \
-flask \
+boto3 \
 gunicorn \
-certbot \
 ec2, s3, iam, route53
-
